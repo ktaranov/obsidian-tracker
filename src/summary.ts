@@ -40,7 +40,7 @@ export function renderSummary(
                 textBlock.append("div").text(outputLine);
             }
         } else {
-            textBlock.text(outputSummary);
+            textBlock.html(outputSummary);
         }
 
         if (summaryInfo.style !== "") {
